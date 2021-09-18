@@ -1,0 +1,25 @@
+{
+  "UserData": [
+    {
+      "name": "Tony Stark",
+      "username": "Ironman",
+      "email": "tony@ironman.com",
+      "password": "starI",
+      "id": 1
+    },
+    {
+      "name": "Steve rogers",
+      "username": "Captan America",
+      "email": "Steve@captan.com",
+      "password": "steve123",
+      "id": 2
+    },
+    {
+      "name": "Bruce banner",
+      "username": "Hulk",
+      "email": "Burce@hulk.com",
+      "password": "Bruce",
+      "id": 3
+    }
+  ]
+}

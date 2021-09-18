@@ -1,0 +1,87 @@
+.head {
+  padding: 15px;
+  background-color: rgb(0, 10, 10);
+  display: flex;
+  justify-content: space-around;
+}
+.h {
+  width: 70px;
+  text-decoration: none;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(252, 244, 244);
+  display: flex;
+  justify-content: center;
+}
+.h:hover {
+  background-color: rgb(167, 158, 150);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding: 10px;
+  margin: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: #060a09;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+.header > * {
+  flex: 1;
+}
+
+.list {
+  display: flex;
+  border-bottom: 1px solid;
+  padding: 5px;
+  margin: 10px;
+}
+
+.list > * {
+  flex: 1;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  font-variant: small-caps;
+  font-style: italic;
+}
