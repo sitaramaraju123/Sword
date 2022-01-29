@@ -1,14 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Header/Header.css";
-import UserProfile from "./userProfile";
 
 class Login extends Component {
   state = {
     username: "",
     password: "",
-    data: [],
-    isLogin: false
+    data: []
   };
   componentDidMount() {
     fetch("http://localhost:3001/UserData")
@@ -28,7 +26,11 @@ class Login extends Component {
         item.password === this.state.password
     );
     if (arr.length !== 0) {
-      this.setState({ isLogin: true });
+      this.props.history.push({
+        pathname: "/Userprofile",
+        search: "?query=abc",
+        username: arr[0].name
+      });
     } else {
       alert("Invalid details");
     }
@@ -36,7 +38,6 @@ class Login extends Component {
   render() {
     return (
       <>
-        {this.state.isLogin ? <UserProfile name={this.state.username} /> : null}
         <form onSubmit={this.onSubmit}>
           <div className="container">
             <h1>Login</h1>

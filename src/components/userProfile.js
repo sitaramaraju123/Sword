@@ -5,7 +5,7 @@ class UserProfile extends Component {
     console.log(this.props);
     return (
       <div>
-        <h1>Welcome {this.props.name}</h1>
+        <h1>Welcome {this.props.location.username}</h1>
       </div>
     );
   }

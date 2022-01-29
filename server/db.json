@@ -20,6 +20,62 @@
       "email": "Burce@hulk.com",
       "password": "Bruce",
       "id": 3
+    },
+    {
+      "name": "Pavan",
+      "username": "Pavan2010",
+      "email": "pavan@gmailcom",
+      "password": "pavan2010",
+      "id": 4
+    },
+    {
+      "name": "Madhu",
+      "username": "Madhusudhan",
+      "email": "Madhu@143",
+      "password": "madhusudhan",
+      "id": 5
+    },
+    {
+      "name": "srikanth",
+      "username": "srikanthb",
+      "email": "srikanth@gmail.com",
+      "password": "123456789",
+      "id": 6
+    },
+    {
+      "name": "hema",
+      "username": "hemakumar",
+      "email": "hemakumar@outlook.com",
+      "password": "hema",
+      "id": 7
+    },
+    {
+      "name": "Hemanth",
+      "username": "Hemanth",
+      "email": "Hemanth@gmail.com",
+      "password": "hemu",
+      "id": 8
+    },
+    {
+      "name": "Sitaramaraju",
+      "username": "Ramaraju@2143",
+      "email": "sitaramaraju@gmail.com",
+      "password": "Ramaraju@2143",
+      "id": 9
+    },
+    {
+      "name": "Ramanjaneya varma",
+      "username": "varma",
+      "email": "varma@gmail.com",
+      "password": "varma123",
+      "id": 10
+    },
+    {
+      "name": "prudhvi",
+      "username": "sai prudhvi",
+      "email": "saiprudhviteki@gmail.com",
+      "password": "saiparinnya@123",
+      "id": 11
     }
   ]
 }
