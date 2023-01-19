@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Header/Header.css";
+import UserProfile from "./userProfile";
 
 class Login extends Component {
   state = {
