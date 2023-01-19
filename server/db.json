@@ -20,6 +20,13 @@
       "email": "Burce@hulk.com",
       "password": "Bruce",
       "id": 3
+    },
+    {
+      "name": "Sitaramaraju",
+      "username": "sitaramaraju.vadapalli",
+      "email": "sitaramaraju@gmail.com",
+      "password": "Ramaraju@2143",
+      "id": 4
     }
   ]
 }

@@ -7,6 +7,7 @@ class Login extends Component {
   state = {
     username: "",
     password: "",
+    Name: "",
     data: [],
     isLogin: false
   };
@@ -27,6 +28,7 @@ class Login extends Component {
         item.username === this.state.username &&
         item.password === this.state.password
     );
+    this.setState({ Name: arr[0].name });
     if (arr.length !== 0) {
       this.setState({ isLogin: true });
     } else {
@@ -36,7 +38,7 @@ class Login extends Component {
   render() {
     return (
       <>
-        {this.state.isLogin ? <UserProfile name={this.state.username} /> : null}
+        {this.state.isLogin ? <UserProfile name={this.state.Name} /> : null}
         <form onSubmit={this.onSubmit}>
           <div className="container">
             <h1>Login</h1>
