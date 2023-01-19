@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Header/Header.css";
-import UserProfile from "./userProfile";
 
 class Login extends Component {
   state = {
@@ -30,7 +29,11 @@ class Login extends Component {
     );
     this.setState({ Name: arr[0].name });
     if (arr.length !== 0) {
-      this.setState({ isLogin: true });
+      this.props.history.push({
+        pathname: "/Userprofile",
+        search: "?query=abc",
+        username: arr[0].name
+      });
     } else {
       alert("Invalid details");
     }
